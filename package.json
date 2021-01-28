@@ -1,0 +1,33 @@
+{
+  "name": "so-fetch",
+  "version": "1.1.1",
+  "description": "Relay a request, adding on a CORS header",
+  "author": {
+    "name": "Alec Glassford",
+    "email": "glassford@cs.stanford.edu",
+    "url": "https://alecglassford.com"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "micro"
+  },
+  "dependencies": {
+    "@icetee/ftp": "https://github.com/kreijstal-contributions/node-ftp.git",
+    "lil-uri": "https://github.com/kreijstal-contributions/uri.git",
+    "micro": "^9.3.4",
+    "node-fetch": "^2.6.1"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/sofetch"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "cors",
+    "tiny",
+    "😘",
+    "Gretchen, stop trying to make fetch happen. It's not going to happen."
+  ]
+}
